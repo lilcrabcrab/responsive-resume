@@ -1,0 +1,197 @@
+*{
+    margin:0%;
+    padding: 0%;
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+    height: 100%;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    font-stretch:wider;
+    
+}
+
+.main-section{
+    width: 97%;
+    display: flex;
+    height: 100%;
+}
+
+.aboutself{
+    width: 80%;
+    padding: 70px;
+}
+
+.name{
+    color:rgb(8, 121, 23);
+}
+
+.photo{
+    width: 30%;
+    height: 80%;
+    text-align: center;
+}
+
+.list-order{
+    list-style: none;
+}
+
+.img-adjust{
+    width: 150px;
+    height: 200px;
+    border-radius: 1rem;
+}
+
+.sections{
+    padding: 10px;
+    
+}
+.edu-details{
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+
+table,th,tr,td{
+    border-spacing: 0;
+}
+
+table{
+    border-radius: 1rem;
+    border: 1.3px solid black;
+}
+
+.bdr{
+    border-bottom: 1.3px solid black;
+}
+
+.bdr2{
+    border-right: 1.3px solid black;
+}
+
+table{
+    background-image: linear-gradient(to top, #eaf3f7, #e4f2f8, #def0f8, #d8eff9, #d2edfa, #ceebfa, #caeafa, #c6e8fa, #c3e6f9, #c0e4f8, #bde2f8, #bae0f7);
+}
+
+tr,th{
+    padding: 5px 30px 5px 30px;
+}
+
+tr,td{
+    text-align: center;
+    padding: 5px 0 5px 0;
+}
+
+.separator{
+    border: 1px solid rgba(77, 29, 7, 0.918);
+}
+
+.skill-sets{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.lang{
+    display: flex;
+    padding: 10px 50px 10px 50px;
+}
+
+.skills-head{
+    width: 20%;
+}
+
+.progressbar{
+    display: flex;
+    width: 500px;
+}
+
+.section-3{
+    height: 80px;
+}
+
+.tech{
+    width:16%;
+}
+.tech-name{
+    color: black;
+    width:83%;
+    float: right;
+    margin-top: -20px;
+}
+
+.personal-details{
+    width:100%
+}
+
+.details{
+    width:16%;
+    display: flex;
+}
+
+.pd{
+    color: black;
+    width:83%;
+    display: flex;
+    float: right;
+    margin-top: -20px;
+}
+
+img{
+    animation-name: aniname1;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+}
+
+@keyframes aniname1 {
+    0%{
+        border: 1px solid black;
+    }
+    50%{
+        border: 1px solid rgba(238, 91, 23, 0.918);
+    }
+    100%{
+        border: 1px solid rgb(8, 121, 23);
+    }
+}
+
+.container{
+    animation-name: aniname2;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+}
+
+@keyframes aniname2 {
+    0%{
+        border-left: 5px double black;
+        border-right: 5px double black;
+        border-top: 5px solid black;
+        border-bottom: 5px solid black;
+        border-radius: 1rem;
+    }
+    50%{
+        border-left: 5px double rgba(238, 91, 23, 0.918);
+        border-right: 5px double rgba(238, 91, 23, 0.918);
+        border-top: 5px solid rgba(238, 91, 23, 0.918);
+        border-bottom: 5px solid rgba(238, 91, 23, 0.918);
+        border-radius: 1rem;
+    }
+    100%{
+        border-left: 5px double rgb(8, 121, 23);
+        border-right: 5px double rgb(8, 121, 23);
+        border-top: 5px solid rgb(8, 121, 23);
+        border-bottom: 5px solid rgb(8, 121, 23);
+        border-radius: 1rem;
+    }
+}
+
+
+.table:hover{
+    transform: skew(360deg);
+    transition-duration: 5s;
+}

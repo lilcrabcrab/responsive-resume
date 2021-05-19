@@ -1,0 +1,161 @@
+@media only screen and (max-width: 1024px){
+    body{
+      font-size: 0.945778rem;
+    }
+    tr,th{
+        padding: 4px 16px 4px 16px;
+    }
+    tr,td{
+        padding: 5px 2px 5px 2px;
+    }
+    .skill-sets{
+        width: 100%;
+    }
+    .lang{
+        padding: 10px 50px 10px 50px;
+    }
+    .skills-head{
+        width: 20%;
+    }
+    .progressbar{
+        width: 300px;
+    }
+    .tech{
+        width:19%;
+    }
+    .tech-name{
+        width:80%;
+        margin-top: -18px;
+    }
+    .details{
+        width:19%;
+    }
+    .pd{
+        width:80%;
+        margin-top: -18px;
+    }
+}
+
+@media only screen and (max-width: 1080px){
+    .tech{
+        width:22%;
+    }
+    .tech-name{
+        width:79%;
+        margin-top: -18px;
+    }
+    .details{
+        width:22%;
+    }
+    .pd{
+        width:79%;
+        margin-top: -18px;
+    }
+}
+
+@media only screen and (max-width: 1440px){
+    table{
+        width: 100%;
+    }
+    tr,th{
+        padding: 10px 25px 10px 25px;
+    }
+    tr,td{
+        padding: 10px 5px 10px 5px;
+    }
+    .tech-name{
+        margin-top: -18px;
+    }
+    .pd{
+        margin-top: -18px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    body{
+        font-size: 0.8rem;
+      }
+      tr,th{
+          padding: 4px 16px 4px 16px;
+      }
+      tr,td{
+          padding: 5px 2px 5px 2px;
+      }
+      .skill-sets{
+          width: 100%;
+      }
+      .lang{
+          padding: 10px 50px 10px 50px;
+      }
+      .skills-head{
+          width: 20%;
+      }
+      .progressbar{
+          width: 300px;
+      }
+      .tech{
+          width:23%;
+      }
+      .tech-name{
+          width:76%;
+          margin-top: -14px;
+      }
+      .details{
+          width:23%;
+      }
+      .pd{
+          width:76%;
+          margin-top: -14px;
+      }
+}
+
+@media only screen and (max-width: 540px){
+    body{
+        font-size: 0.6rem;
+      }
+    .img-adjust{
+        width: 100px;
+        height: 130px;
+    }  
+    .aboutself{
+        width: 65%;
+        padding: 50px;
+    }
+    .photo{
+        width: 35%;
+        height: 80%;
+        text-align: center;
+    }
+      tr,th{
+          padding: 4px 15px 4px 15px;
+      }
+      tr,td{
+          padding: 5px 1px 5px 1px;
+      }
+      .skill-sets{
+          width: 100%;
+      }
+      .lang{
+          padding: 10px 40px 10px 40px;
+      }
+      .skills-head{
+          width: 20%;
+      }
+      .progressbar{
+          width: 170px;
+      }
+      .tech{
+          width:23%;
+      }
+      .tech-name{
+          width:76%;
+          margin-top: -11px;
+      }
+      .details{
+          width:23%;
+      }
+      .pd{
+          width:76%;
+          margin-top: -11px;
+      }
+}
